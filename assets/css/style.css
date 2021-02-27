@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/assets/fonts/Montserrat-Light.ttf);
+}
+
+body {
+  background-color: #000;
+  margin: 0 auto;
+}
+
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.avatar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  margin-left: 100px;
+}
+
+.column:first-child {
+  margin-left: 0px;
+}
+
+.header-section {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding-bottom: 50px;
+}
+
+.list-item {
+  color: #fff;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', serif;
+  font-size: 20px;
+  
+  padding: 10px;
+}
+
+.name {
+  color: #fff;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', serif;
+  font-size: 90px;
+  text-transform: capitalize;
+}
+
+.profile-section {
+  color: #fff;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.section-title {
+  color: #fff;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', serif;
+  font-size: 40px;
+  text-transform: capitalize;
+  padding-bottom: 50px;
+}
+
+.wrapper {
+  box-shadow: 0 5px 20px 0 rgba(177, 0,	0, .7);
+  margin: 30px auto;
+  max-width: 1024px;
+  padding: 70px;
+}
